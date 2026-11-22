@@ -1,0 +1,10 @@
+[
+  { "id": "qustodio",   "name": "Qustodio",          "scheme": "qustodio",   "category": "contrôle parental", "verified": false },
+  { "id": "bark",       "name": "Bark",              "scheme": "bark",       "category": "contrôle parental", "verified": false },
+  { "id": "netnanny",   "name": "Net Nanny",         "scheme": "netnanny",   "category": "contrôle parental", "verified": false },
+  { "id": "norton",     "name": "Norton Family",     "scheme": "nortonfamily","category": "contrôle parental", "verified": false },
+  { "id": "kaspersky",  "name": "Kaspersky Safe Kids","scheme": "safekids",  "category": "contrôle parental", "verified": false },
+  { "id": "familylink", "name": "Google Family Link","scheme": "familylink", "category": "contrôle parental", "verified": false },
+  { "id": "msfamily",   "name": "Microsoft Family Safety","scheme": "msfamilysafety","category": "contrôle parental", "verified": false },
+  { "id": "life360",    "name": "Life360",           "scheme": "life360",    "category": "partage de position", "verified": false }
+]

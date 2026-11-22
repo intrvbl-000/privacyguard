@@ -1,0 +1,34 @@
+name: PrivacyGuard
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  PrivacyGuard:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+      - Resources
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: Privacy Guard
+        UILaunchScreen: {}
+        UIBackgroundModes: [fetch]
+        BGTaskSchedulerPermittedIdentifiers: [com.example.privacyguard.refresh]
+        LSApplicationQueriesSchemes:
+          - bark
+          - familylink
+          - life360
+          - msfamilysafety
+          - netnanny
+          - nortonfamily
+          - qustodio
+          - safekids
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.privacyguard
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGNING_ALLOWED: "NO"
